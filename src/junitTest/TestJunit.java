@@ -15,8 +15,8 @@ public class TestJunit {
 
 	@Test
 	public void TestClass() {
-		int result=t.add(10, 20);
-		assertEquals(result, 30);
+		int result1=t.add(10, 20);
+		assertEquals(result1, 30);
 		
 		int sum=t.addArray();
 		assertEquals(sum, 100);
